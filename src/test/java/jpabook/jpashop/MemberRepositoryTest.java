@@ -19,17 +19,27 @@ public class MemberRepositoryTest {
 
     @Test
     @Transactional
-    public void testMember() throws Exception{
+    @Rollback(value = false)
+    public void testMember() throws Exception {
+
+        System.out.println(">>> testMember 시작");
+
         //given
         Member member = new Member();
         member.setUsername("memberA");
 
         //when
         Long savedId = memberRepository.save(member);
-        Member findmember = memberRepository.find(savedId);
+        Member findMember = memberRepository.find(savedId);
 
         //then
-        Assertions.assertThat(findmember.getId()).isEqualTo(member.getId());
-        Assertions.assertThat(findmember.getUsername()).isEqualTo(member.getUsername());
+        Assertions.assertThat(findMember.getId()).isEqualTo(member.getId());
+        Assertions.assertThat(findMember.getUsername()).isEqualTo(member.getUsername());
+        Assertions.assertThat(findMember).isEqualTo(member);
+        System.out.println("================" + findMember);
+        System.out.println("================" + member);
+
+
+        System.out.println(">>> testMember 종료");
     }
 }
