@@ -1,18 +1,18 @@
 spring:
   datasource:
-    url: jdbc:mysql://${HOST}:${PORT}/jpashop?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    url: ${URL}
     username: root
     password: ${PASSWORD}
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: org.mariadb.jdbc.Driver
 
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     properties:
       hibernate:
         #        show_sql: true
         format_sql: true
-        dialect: org.hibernate.dialect.MySQL8Dialect
+        dialect: org.hibernate.dialect.MariaDBDialect
 
 
 logging:
