@@ -1,3 +1,47 @@
+# JPA를 사용한 게시판
+
+## ✨기술스택✨
+
+|<img src="https://github.com/user-attachments/assets/e37eb89d-abd8-4b73-913a-970ef8ac2db4">|<img src="https://github.com/user-attachments/assets/0ca1da0e-40a4-463f-8c5f-c4eb59a6d1ef">|<img src="https://github.com/user-attachments/assets/2c166b50-46c8-4ae3-a911-16f7c952f7a1">|<img src="https://github.com/user-attachments/assets/e1ebe214-0b4f-4de9-8c0f-ec0c80d693b2">|<img src="https://github.com/user-attachments/assets/cd84b695-c17d-4b28-b031-0f30827ca785">|<img src="https://github.com/user-attachments/assets/04750eda-60a5-4b85-9fba-1870789c0677">
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|Java|JPA|RESTful API|MariaDB|Spring|GitHub|
+
+|<img src="https://github.com/user-attachments/assets/57985638-3de9-45b8-9519-47b6c0f96342">|<img src="https://github.com/user-attachments/assets/ca92d296-cae7-46d6-9aea-c7ee41925eee">|<img src="https://github.com/user-attachments/assets/80a15ed0-7f5f-48c4-ae4e-1e18f717a824">|<img src="https://github.com/user-attachments/assets/30667665-8e8c-4887-9092-7e168e04a717">|
+|:---:|:---:|:---:|:---:|
+|JavaScript|HTML5|CSS3|Thymeleaf|
+<br>
+<hr>
+
+![image](https://github.com/user-attachments/assets/280af146-af8b-4a36-8820-f6fcad9747d9)
+
+## ✏ 프로젝트 개요
+- JPA를 활용한 간단한 쇼핑몰 만들기
+- 실무에서 쓰는 RESTful API 배워보기
+
+## 🔎 배포 사이트
+https://port-0-jpashop-m0ny336018973108.sel4.cloudtype.app/
+
+## 💾  작업 내용
+- 프로젝트 환경 설정
+- 도메인 분석 및 설계
+- 애플리케이션 구현 준비
+- 회원 도메인 개발
+- 상품 도메인 개발
+- 주문 도메인 개발
+- 웹 계층 개발
+- 배포
+
+## 🔎 문제점 및 해결 방안
+- JPA를 조금 더 심도 있게 배우는 과정에서 이해가 안되는 부분들이 꽤 있었다.
+  → 구글링이나 GPT를 통해 궁금증을 해결하였다.
+
+##  🔍프로젝트 기간
+2024-08-30 ~ 2024-09-04
+<hr>
+<br><br><br>
+
+### 필기
+<br>
 (findMember == member)가 true가 나오는 이유는 JPA의 1차 캐시와 엔티티 동일성 보장 때문입니다. 이를 이해하기 위해서는 JPA가 엔티티를 어떻게 관리하고, EntityManager가 어떤 역할을 하는지 알아야 합니다.
 
 1. 1차 캐시와 엔티티 관리
