@@ -1,5 +1,12 @@
 # JPA를 사용한 게시판
 
+## ✏ 프로젝트 개요
+- JPA를 활용한 간단한 쇼핑몰 만들기
+- 실무에서 쓰는 RESTful API 배워보기
+
+![image](https://github.com/user-attachments/assets/280af146-af8b-4a36-8820-f6fcad9747d9)
+<hr><br>
+
 ## ✨기술스택✨
 
 |<img src="https://github.com/user-attachments/assets/e37eb89d-abd8-4b73-913a-970ef8ac2db4">|<img src="https://github.com/user-attachments/assets/0ca1da0e-40a4-463f-8c5f-c4eb59a6d1ef">|<img src="https://github.com/user-attachments/assets/2c166b50-46c8-4ae3-a911-16f7c952f7a1">|<img src="https://github.com/user-attachments/assets/e1ebe214-0b4f-4de9-8c0f-ec0c80d693b2">|<img src="https://github.com/user-attachments/assets/cd84b695-c17d-4b28-b031-0f30827ca785">|<img src="https://github.com/user-attachments/assets/04750eda-60a5-4b85-9fba-1870789c0677">
@@ -11,12 +18,6 @@
 |JavaScript|HTML5|CSS3|Thymeleaf|
 <br>
 <hr>
-
-![image](https://github.com/user-attachments/assets/280af146-af8b-4a36-8820-f6fcad9747d9)
-
-## ✏ 프로젝트 개요
-- JPA를 활용한 간단한 쇼핑몰 만들기
-- 실무에서 쓰는 RESTful API 배워보기
 
 ## 🔎 배포 사이트
 https://port-0-jpashop-m0ny336018973108.sel4.cloudtype.app/
