@@ -20,7 +20,7 @@
 <hr>
 
 ## 🔎 배포 사이트
-https://port-0-jpashop-m0ny336018973108.sel4.cloudtype.app/
+http://jpashop.hhjnn92.synology.me:8080/
 
 ## 💾  작업 내용
 - 프로젝트 환경 설정
