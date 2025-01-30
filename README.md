@@ -20,7 +20,7 @@
 <hr>
 
 ## 🔎 배포 사이트
-http://jpashop.hhjnn92.synology.me:8080/
+http://jpashop.hhjnn92.synology.me/
 
 ## 💾  작업 내용
 - 프로젝트 환경 설정
